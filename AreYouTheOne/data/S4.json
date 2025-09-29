@@ -1,0 +1,850 @@
+{
+  "contestants": {
+    "men": [
+      {
+        "id": 0,
+        "name": "Asaf"
+      },
+      {
+        "id": 1,
+        "name": "Cam"
+      },
+      {
+        "id": 2,
+        "name": "Cameron"
+      },
+      {
+        "id": 3,
+        "name": "Giovanni"
+      },
+      {
+        "id": 4,
+        "name": "John"
+      },
+      {
+        "id": 5,
+        "name": "Morgan"
+      },
+      {
+        "id": 6,
+        "name": "Prosper"
+      },
+      {
+        "id": 7,
+        "name": "Sam"
+      },
+      {
+        "id": 8,
+        "name": "Stephen"
+      },
+      {
+        "id": 9,
+        "name": "Tyler"
+      }
+    ],
+    "women": [
+      {
+        "id": 0,
+        "name": "Alyssa"
+      },
+      {
+        "id": 1,
+        "name": "Camille"
+      },
+      {
+        "id": 2,
+        "name": "Emma"
+      },
+      {
+        "id": 3,
+        "name": "Francesca"
+      },
+      {
+        "id": 4,
+        "name": "Julia"
+      },
+      {
+        "id": 5,
+        "name": "Kaylen"
+      },
+      {
+        "id": 6,
+        "name": "Mikayla"
+      },
+      {
+        "id": 7,
+        "name": "Nicole"
+      },
+      {
+        "id": 8,
+        "name": "Tori"
+      },
+      {
+        "id": 9,
+        "name": "Victoria"
+      }
+    ]
+  },
+  "events": [
+    {
+      "truthBooths": [
+        {
+          "a": 6,
+          "a_name": "Prosper",
+          "b": 8,
+          "b_name": "Tori",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 8,
+            "b_name": "Tori"
+          }
+        ],
+        "score": 3
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 4,
+          "a_name": "John",
+          "b": 4,
+          "b_name": "Julia",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 9,
+            "b_name": "Victoria"
+          }
+        ],
+        "score": 3
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 2,
+          "a_name": "Cameron",
+          "b": 6,
+          "b_name": "Mikayla",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 4,
+            "b_name": "Julia"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 0,
+          "a_name": "Asaf",
+          "b": 8,
+          "b_name": "Tori",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 3,
+            "b_name": "Francesca"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 3,
+          "a_name": "Giovanni",
+          "b": 5,
+          "b_name": "Kaylen",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 5,
+            "b_name": "Kaylen"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 7,
+          "a_name": "Sam",
+          "b": 0,
+          "b_name": "Alyssa",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 1,
+          "a_name": "Cam",
+          "b": 9,
+          "b_name": "Victoria",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 1,
+            "b_name": "Camille"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 3,
+          "a_name": "Giovanni",
+          "b": 4,
+          "b_name": "Julia",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 1,
+            "b_name": "Camille"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 2,
+            "b_name": "Emma"
+          }
+        ],
+        "score": 2
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 6,
+          "a_name": "Prosper",
+          "b": 2,
+          "b_name": "Emma",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 1,
+            "b_name": "Camille"
+          }
+        ],
+        "score": 6
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 1,
+          "a_name": "Cam",
+          "b": 4,
+          "b_name": "Julia",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Asaf",
+            "b": 5,
+            "b_name": "Kaylen"
+          },
+          {
+            "a": 1,
+            "a_name": "Cam",
+            "b": 4,
+            "b_name": "Julia"
+          },
+          {
+            "a": 2,
+            "a_name": "Cameron",
+            "b": 6,
+            "b_name": "Mikayla"
+          },
+          {
+            "a": 3,
+            "a_name": "Giovanni",
+            "b": 3,
+            "b_name": "Francesca"
+          },
+          {
+            "a": 4,
+            "a_name": "John",
+            "b": 9,
+            "b_name": "Victoria"
+          },
+          {
+            "a": 5,
+            "a_name": "Morgan",
+            "b": 8,
+            "b_name": "Tori"
+          },
+          {
+            "a": 6,
+            "a_name": "Prosper",
+            "b": 2,
+            "b_name": "Emma"
+          },
+          {
+            "a": 7,
+            "a_name": "Sam",
+            "b": 0,
+            "b_name": "Alyssa"
+          },
+          {
+            "a": 8,
+            "a_name": "Stephen",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 9,
+            "a_name": "Tyler",
+            "b": 1,
+            "b_name": "Camille"
+          }
+        ],
+        "score": 10
+      }
+    }
+  ]
+}

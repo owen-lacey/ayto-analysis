@@ -1,0 +1,918 @@
+{
+    "contestants": {
+        "men": [
+            {
+                "id": 0,
+                "name": "Andrew"
+            },
+            {
+                "id": 1,
+                "name": "Brett"
+            },
+            {
+                "id": 2,
+                "name": "Cam"
+            },
+            {
+                "id": 3,
+                "name": "Daniel"
+            },
+            {
+                "id": 4,
+                "name": "Kwasi"
+            },
+            {
+                "id": 5,
+                "name": "Lewis"
+            },
+            {
+                "id": 6,
+                "name": "Moe"
+            },
+            {
+                "id": 7,
+                "name": "Shamoy"
+            },
+            {
+                "id": 8,
+                "name": "Tevin"
+            },
+            {
+                "id": 9,
+                "name": "Tomas"
+            },
+            {
+                "id": 10,
+                "name": "Zak"
+            }
+        ],
+        "women": [
+            {
+                "id": 0,
+                "name": "Asia"
+            },
+            {
+                "id": 1,
+                "name": "Bria"
+            },
+            {
+                "id": 2,
+                "name": "Cali"
+            },
+            {
+                "id": 3,
+                "name": "Jasmine"
+            },
+            {
+                "id": 4,
+                "name": "Kayla"
+            },
+            {
+                "id": 5,
+                "name": "Kenya"
+            },
+            {
+                "id": 6,
+                "name": "Lauren"
+            },
+            {
+                "id": 7,
+                "name": "Maria"
+            },
+            {
+                "id": 8,
+                "name": "Morgan"
+            },
+            {
+                "id": 9,
+                "name": "Nutsa"
+            },
+            {
+                "id": 10,
+                "name": "Sam"
+            }
+        ]
+    },
+    "events": [
+        {
+            "truthBooths": [
+                {
+                    "a": 9,
+                    "a_name": "Tomas",
+                    "b": 7,
+                    "b_name": "Maria",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 1,
+                        "b_name": "Bria"
+                    }
+                ],
+                "score": 3
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 0,
+                    "a_name": "Andrew",
+                    "b": 0,
+                    "b_name": "Asia",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 10,
+                        "b_name": "Sam"
+                    }
+                ],
+                "score": 3
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 7,
+                    "a_name": "Shamoy",
+                    "b": 7,
+                    "b_name": "Maria",
+                    "result": true
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 3
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 1,
+                    "a_name": "Brett",
+                    "b": 5,
+                    "b_name": "Kenya",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 2
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 10,
+                    "a_name": "Zak",
+                    "b": 1,
+                    "b_name": "Bria",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 4
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 1,
+                    "a_name": "Brett",
+                    "b": 2,
+                    "b_name": "Cali",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 4
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 10,
+                    "a_name": "Zak",
+                    "b": 9,
+                    "b_name": "Nutsa",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 4
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 8,
+                    "a_name": "Tevin",
+                    "b": 5,
+                    "b_name": "Kenya",
+                    "result": true
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 2,
+                        "b_name": "Cali"
+                    }
+                ],
+                "score": 4
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 2,
+                    "a_name": "Cam",
+                    "b": 10,
+                    "b_name": "Sam",
+                    "result": false
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 10,
+                        "b_name": "Sam"
+                    }
+                ],
+                "score": 4
+            }
+        },
+        {
+            "truthBooths": [
+                {
+                    "a": 1,
+                    "a_name": "Brett",
+                    "b": 9,
+                    "b_name": "Nutsa",
+                    "result": true
+                }
+            ],
+            "matchUp": {
+                "matching": [
+                    {
+                        "a": 0,
+                        "a_name": "Andrew",
+                        "b": 2,
+                        "b_name": "Cali"
+                    },
+                    {
+                        "a": 1,
+                        "a_name": "Brett",
+                        "b": 9,
+                        "b_name": "Nutsa"
+                    },
+                    {
+                        "a": 2,
+                        "a_name": "Cam",
+                        "b": 1,
+                        "b_name": "Bria"
+                    },
+                    {
+                        "a": 3,
+                        "a_name": "Daniel",
+                        "b": 3,
+                        "b_name": "Jasmine"
+                    },
+                    {
+                        "a": 4,
+                        "a_name": "Kwasi",
+                        "b": 6,
+                        "b_name": "Lauren"
+                    },
+                    {
+                        "a": 5,
+                        "a_name": "Lewis",
+                        "b": 10,
+                        "b_name": "Sam"
+                    },
+                    {
+                        "a": 6,
+                        "a_name": "Moe",
+                        "b": 4,
+                        "b_name": "Kayla"
+                    },
+                    {
+                        "a": 7,
+                        "a_name": "Shamoy",
+                        "b": 7,
+                        "b_name": "Maria"
+                    },
+                    {
+                        "a": 8,
+                        "a_name": "Tevin",
+                        "b": 5,
+                        "b_name": "Kenya"
+                    },
+                    {
+                        "a": 9,
+                        "a_name": "Tomas",
+                        "b": 0,
+                        "b_name": "Asia"
+                    },
+                    {
+                        "a": 10,
+                        "a_name": "Zak",
+                        "b": 8,
+                        "b_name": "Morgan"
+                    }
+                ],
+                "score": 11
+            }
+        }
+    ]
+}

@@ -1,0 +1,918 @@
+{
+  "contestants": {
+    "men": [
+      {
+        "id": 0,
+        "name": "Anthony"
+      },
+      {
+        "id": 1,
+        "name": "Clinton"
+      },
+      {
+        "id": 2,
+        "name": "Dimitri"
+      },
+      {
+        "id": 3,
+        "name": "Ethan"
+      },
+      {
+        "id": 4,
+        "name": "Joe"
+      },
+      {
+        "id": 5,
+        "name": "Kareem"
+      },
+      {
+        "id": 6,
+        "name": "Keith"
+      },
+      {
+        "id": 7,
+        "name": "Malcolm"
+      },
+      {
+        "id": 8,
+        "name": "Michael"
+      },
+      {
+        "id": 9,
+        "name": "Shad"
+      },
+      {
+        "id": 10,
+        "name": "Tyler"
+      }
+    ],
+    "women": [
+      {
+        "id": 0,
+        "name": "Alexis"
+      },
+      {
+        "id": 1,
+        "name": "Alivia"
+      },
+      {
+        "id": 2,
+        "name": "Audrey"
+      },
+      {
+        "id": 3,
+        "name": "Diandra"
+      },
+      {
+        "id": 4,
+        "name": "Geles"
+      },
+      {
+        "id": 5,
+        "name": "Jada"
+      },
+      {
+        "id": 6,
+        "name": "Keyana"
+      },
+      {
+        "id": 7,
+        "name": "Nicole"
+      },
+      {
+        "id": 8,
+        "name": "Nurys"
+      },
+      {
+        "id": 9,
+        "name": "Uche"
+      },
+      {
+        "id": 10,
+        "name": "Zoe"
+      }
+    ]
+  },
+  "events": [
+    {
+      "truthBooths": [
+        {
+          "a": 3,
+          "a_name": "Ethan",
+          "b": 6,
+          "b_name": "Keyana",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 3
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 0,
+          "a_name": "Anthony",
+          "b": 4,
+          "b_name": "Geles",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 10,
+            "b_name": "Zoe"
+          }
+        ],
+        "score": 1
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 7,
+          "a_name": "Malcolm",
+          "b": 8,
+          "b_name": "Nurys",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 2
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 2,
+          "a_name": "Dimitri",
+          "b": 7,
+          "b_name": "Nicole",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 5,
+            "b_name": "Jada"
+          }
+        ],
+        "score": 3
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 1,
+          "a_name": "Clinton",
+          "b": 9,
+          "b_name": "Uche",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 7,
+            "b_name": "Nicole"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 6,
+            "b_name": "Keyana"
+          }
+        ],
+        "score": 1
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 6,
+          "a_name": "Keith",
+          "b": 0,
+          "b_name": "Alexis",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 6,
+          "a_name": "Keith",
+          "b": 1,
+          "b_name": "Alivia",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 5
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 8,
+          "a_name": "Michael",
+          "b": 2,
+          "b_name": "Audrey",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 3
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 10,
+          "a_name": "Tyler",
+          "b": 7,
+          "b_name": "Nicole",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 5
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 2,
+          "a_name": "Dimitri",
+          "b": 5,
+          "b_name": "Jada",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {
+            "a": 0,
+            "a_name": "Anthony",
+            "b": 0,
+            "b_name": "Alexis"
+          },
+          {
+            "a": 1,
+            "a_name": "Clinton",
+            "b": 4,
+            "b_name": "Geles"
+          },
+          {
+            "a": 2,
+            "a_name": "Dimitri",
+            "b": 8,
+            "b_name": "Nurys"
+          },
+          {
+            "a": 3,
+            "a_name": "Ethan",
+            "b": 10,
+            "b_name": "Zoe"
+          },
+          {
+            "a": 4,
+            "a_name": "Joe",
+            "b": 9,
+            "b_name": "Uche"
+          },
+          {
+            "a": 5,
+            "a_name": "Kareem",
+            "b": 3,
+            "b_name": "Diandra"
+          },
+          {
+            "a": 6,
+            "a_name": "Keith",
+            "b": 5,
+            "b_name": "Jada"
+          },
+          {
+            "a": 7,
+            "a_name": "Malcolm",
+            "b": 1,
+            "b_name": "Alivia"
+          },
+          {
+            "a": 8,
+            "a_name": "Michael",
+            "b": 6,
+            "b_name": "Keyana"
+          },
+          {
+            "a": 9,
+            "a_name": "Shad",
+            "b": 2,
+            "b_name": "Audrey"
+          },
+          {
+            "a": 10,
+            "a_name": "Tyler",
+            "b": 7,
+            "b_name": "Nicole"
+          }
+        ],
+        "score": 11
+      }
+    }
+  ]
+}

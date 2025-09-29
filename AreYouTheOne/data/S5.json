@@ -1,0 +1,350 @@
+{
+  "contestants": {
+    "men": [
+      {
+        "id": 0,
+        "name": "Andre"
+      },
+      {
+        "id": 1,
+        "name": "Derrick"
+      },
+      {
+        "id": 2,
+        "name": "Edward"
+      },
+      {
+        "id": 3,
+        "name": "Hayden"
+      },
+      {
+        "id": 4,
+        "name": "Jaylan"
+      },
+      {
+        "id": 5,
+        "name": "Joey"
+      },
+      {
+        "id": 6,
+        "name": "Michael"
+      },
+      {
+        "id": 7,
+        "name": "Mike"
+      },
+      {
+        "id": 8,
+        "name": "Osvaldo"
+      },
+      {
+        "id": 9,
+        "name": "Ozzy"
+      },
+      {
+        "id": 10,
+        "name": "Tyler"
+      }
+    ],
+    "women": [
+      {
+        "id": 0,
+        "name": "Alicia"
+      },
+      {
+        "id": 1,
+        "name": "Carolina"
+      },
+      {
+        "id": 2,
+        "name": "Casandra"
+      },
+      {
+        "id": 3,
+        "name": "Gianna"
+      },
+      {
+        "id": 4,
+        "name": "Hannah"
+      },
+      {
+        "id": 5,
+        "name": "Kam"
+      },
+      {
+        "id": 6,
+        "name": "Kari"
+      },
+      {
+        "id": 7,
+        "name": "Kathryn"
+      },
+      {
+        "id": 8,
+        "name": "Shannon"
+      },
+      {
+        "id": 9,
+        "name": "Taylor"
+      },
+      {
+        "id": 10,
+        "name": "Tyranny"
+      }
+    ]
+  },
+  "events": [
+    {
+      "truthBooths": [
+        {
+          "a": 3,
+          "a_name": "Hayden",
+          "b": 3,
+          "b_name": "Gianna",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 0, "b_name": "Alicia"},
+          {"a": 1, "a_name": "Derrick", "b": 7, "b_name": "Kathryn"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 8, "b_name": "Shannon"},
+          {"a": 4, "a_name": "Jaylan", "b": 2, "b_name": "Casandra"},
+          {"a": 5, "a_name": "Joey", "b": 1, "b_name": "Carolina"},
+          {"a": 6, "a_name": "Michael", "b": 4, "b_name": "Hannah"},
+          {"a": 7, "a_name": "Mike", "b": 6, "b_name": "Kari"},
+          {"a": 8, "a_name": "Osvaldo", "b": 10, "b_name": "Tyranny"},
+          {"a": 9, "a_name": "Ozzy", "b": 3, "b_name": "Gianna"},
+          {"a": 10, "a_name": "Tyler", "b": 9, "b_name": "Taylor"}
+        ],
+        "score": 2
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 0,
+          "a_name": "Andre",
+          "b": 0,
+          "b_name": "Alicia",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 4, "b_name": "Hannah"},
+          {"a": 1, "a_name": "Derrick", "b": 0, "b_name": "Alicia"},
+          {"a": 2, "a_name": "Edward", "b": 8, "b_name": "Shannon"},
+          {"a": 3, "a_name": "Hayden", "b": 9, "b_name": "Taylor"},
+          {"a": 4, "a_name": "Jaylan", "b": 5, "b_name": "Kam"},
+          {"a": 5, "a_name": "Joey", "b": 1, "b_name": "Carolina"},
+          {"a": 6, "a_name": "Michael", "b": 3, "b_name": "Gianna"},
+          {"a": 7, "a_name": "Mike", "b": 2, "b_name": "Casandra"},
+          {"a": 8, "a_name": "Osvaldo", "b": 6, "b_name": "Kari"},
+          {"a": 9, "a_name": "Ozzy", "b": 7, "b_name": "Kathryn"},
+          {"a": 10, "a_name": "Tyler", "b": 10, "b_name": "Tyranny"}
+        ],
+        "score": 0
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 9,
+          "a_name": "Ozzy",
+          "b": 1,
+          "b_name": "Carolina",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 6, "b_name": "Kari"},
+          {"a": 1, "a_name": "Derrick", "b": 4, "b_name": "Hannah"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 2, "b_name": "Casandra"},
+          {"a": 5, "a_name": "Joey", "b": 7, "b_name": "Kathryn"},
+          {"a": 6, "a_name": "Michael", "b": 9, "b_name": "Taylor"},
+          {"a": 7, "a_name": "Mike", "b": 0, "b_name": "Alicia"},
+          {"a": 8, "a_name": "Osvaldo", "b": 10, "b_name": "Tyranny"},
+          {"a": 9, "a_name": "Ozzy", "b": 3, "b_name": "Gianna"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 8,
+          "a_name": "Osvaldo",
+          "b": 10,
+          "b_name": "Tyranny",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 2, "b_name": "Casandra"},
+          {"a": 1, "a_name": "Derrick", "b": 3, "b_name": "Gianna"},
+          {"a": 2, "a_name": "Edward", "b": 0, "b_name": "Alicia"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 10, "b_name": "Tyranny"},
+          {"a": 5, "a_name": "Joey", "b": 7, "b_name": "Kathryn"},
+          {"a": 6, "a_name": "Michael", "b": 6, "b_name": "Kari"},
+          {"a": 7, "a_name": "Mike", "b": 5, "b_name": "Kam"},
+          {"a": 8, "a_name": "Osvaldo", "b": 9, "b_name": "Taylor"},
+          {"a": 9, "a_name": "Ozzy", "b": 4, "b_name": "Hannah"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 2,
+          "a_name": "Edward",
+          "b": 5,
+          "b_name": "Kam",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 9, "b_name": "Taylor"},
+          {"a": 1, "a_name": "Derrick", "b": 10, "b_name": "Tyranny"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 2, "b_name": "Casandra"},
+          {"a": 5, "a_name": "Joey", "b": 7, "b_name": "Kathryn"},
+          {"a": 6, "a_name": "Michael", "b": 6, "b_name": "Kari"},
+          {"a": 7, "a_name": "Mike", "b": 0, "b_name": "Alicia"},
+          {"a": 8, "a_name": "Osvaldo", "b": 3, "b_name": "Gianna"},
+          {"a": 9, "a_name": "Ozzy", "b": 4, "b_name": "Hannah"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 9,
+          "a_name": "Ozzy",
+          "b": 4,
+          "b_name": "Hannah",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 9, "b_name": "Taylor"},
+          {"a": 1, "a_name": "Derrick", "b": 10, "b_name": "Tyranny"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 4, "b_name": "Hannah"},
+          {"a": 5, "a_name": "Joey", "b": 7, "b_name": "Kathryn"},
+          {"a": 6, "a_name": "Michael", "b": 6, "b_name": "Kari"},
+          {"a": 7, "a_name": "Mike", "b": 0, "b_name": "Alicia"},
+          {"a": 8, "a_name": "Osvaldo", "b": 3, "b_name": "Gianna"},
+          {"a": 9, "a_name": "Ozzy", "b": 2, "b_name": "Casandra"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 0,
+          "a_name": "Andre",
+          "b": 9,
+          "b_name": "Taylor",
+          "result": false
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 2, "b_name": "Casandra"},
+          {"a": 1, "a_name": "Derrick", "b": 6, "b_name": "Kari"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 10, "b_name": "Tyranny"},
+          {"a": 5, "a_name": "Joey", "b": 7, "b_name": "Kathryn"},
+          {"a": 6, "a_name": "Michael", "b": 4, "b_name": "Hannah"},
+          {"a": 7, "a_name": "Mike", "b": 3, "b_name": "Gianna"},
+          {"a": 8, "a_name": "Osvaldo", "b": 9, "b_name": "Taylor"},
+          {"a": 9, "a_name": "Ozzy", "b": 0, "b_name": "Alicia"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 4
+      }
+    },
+    {
+      "truthBooths": [
+        {
+          "a": 3,
+          "a_name": "Hayden",
+          "b": 1,
+          "b_name": "Carolina",
+          "result": true
+        }
+      ],
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 3, "b_name": "Gianna"},
+          {"a": 1, "a_name": "Derrick", "b": 8, "b_name": "Shannon"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 10, "b_name": "Tyranny"},
+          {"a": 5, "a_name": "Joey", "b": 2, "b_name": "Casandra"},
+          {"a": 6, "a_name": "Michael", "b": 7, "b_name": "Kathryn"},
+          {"a": 7, "a_name": "Mike", "b": 6, "b_name": "Kari"},
+          {"a": 8, "a_name": "Osvaldo", "b": 9, "b_name": "Taylor"},
+          {"a": 9, "a_name": "Ozzy", "b": 0, "b_name": "Alicia"},
+          {"a": 10, "a_name": "Tyler", "b": 4, "b_name": "Hannah"}
+        ],
+        "score": 5
+      }
+    },
+    {
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 7, "b_name": "Kathryn"},
+          {"a": 1, "a_name": "Derrick", "b": 2, "b_name": "Casandra"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 10, "b_name": "Tyranny"},
+          {"a": 5, "a_name": "Joey", "b": 4, "b_name": "Hannah"},
+          {"a": 6, "a_name": "Michael", "b": 6, "b_name": "Kari"},
+          {"a": 7, "a_name": "Mike", "b": 0, "b_name": "Alicia"},
+          {"a": 8, "a_name": "Osvaldo", "b": 9, "b_name": "Taylor"},
+          {"a": 9, "a_name": "Ozzy", "b": 3, "b_name": "Gianna"},
+          {"a": 10, "a_name": "Tyler", "b": 8, "b_name": "Shannon"}
+        ],
+        "score": 9
+      }
+    },
+    {
+      "matchUp": {
+        "matching": [
+          {"a": 0, "a_name": "Andre", "b": 7, "b_name": "Kathryn"},
+          {"a": 1, "a_name": "Derrick", "b": 8, "b_name": "Shannon"},
+          {"a": 2, "a_name": "Edward", "b": 5, "b_name": "Kam"},
+          {"a": 3, "a_name": "Hayden", "b": 1, "b_name": "Carolina"},
+          {"a": 4, "a_name": "Jaylan", "b": 10, "b_name": "Tyranny"},
+          {"a": 5, "a_name": "Joey", "b": 4, "b_name": "Hannah"},
+          {"a": 6, "a_name": "Michael", "b": 6, "b_name": "Kari"},
+          {"a": 7, "a_name": "Mike", "b": 0, "b_name": "Alicia"},
+          {"a": 8, "a_name": "Osvaldo", "b": 9, "b_name": "Taylor"},
+          {"a": 9, "a_name": "Ozzy", "b": 3, "b_name": "Gianna"},
+          {"a": 10, "a_name": "Tyler", "b": 2, "b_name": "Casandra"}
+        ],
+        "score": 8
+      }
+    }
+  ]
+}
