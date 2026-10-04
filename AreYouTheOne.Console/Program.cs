@@ -1,6 +1,18 @@
 ﻿using AreYouTheOne.Console.Data;
+using AreYouTheOne.Console.Experiments;
 using AreYouTheOne.Entities;
+using AreYouTheOne.Simulation;
 using Microsoft.Extensions.Logging;
+
+// dotnet run --project AreYouTheOne.Console -c Release -- human [--runs 200] [--seed 1000] [--out results]
+if (args.Length > 0 && args[0] == "human")
+{
+    string Option(string name, string fallback) =>
+        Array.IndexOf(args, name) is var index and >= 0 && index + 1 < args.Length ? args[index + 1] : fallback;
+
+    HumanStrategiesExperiment.Run(int.Parse(Option("--runs", "200")), int.Parse(Option("--seed", "1000")), Option("--out", "results"));
+    return;
+}
 
 var loggerFactory = LoggerFactory.Create(builder =>
 {
@@ -59,23 +71,5 @@ List<ScoreChange> CalculateScoreChanges(List<Event> list)
 
 double CalculateInformationGained(List<AytoResult> results)
 {
-    if (results.Count <= 1)
-    {
-        return 0;
-    }
-    var informations = new List<double>();
-    AytoResult? previous = null;
-    foreach (var result in results)
-    {
-        if (previous != null && previous.Count > 1)
-        {
-            var probability = (double)result.Count / previous.Count;
-            var informationGained = -Math.Log2(probability);
-            informations.Add(informationGained);
-        }
-
-        previous = result;
-    }
-
-    return informations.Average();
+    return InformationMetrics.MeanBitsPerEvent(results.Select(result => (long)result.Count));
 }

@@ -1,0 +1,316 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" font-family="system-ui, -apple-system, Segoe UI, sans-serif" role="img" aria-label="Mean log2 of remaining viable matchings after each event, per strategy">
+<style>
+:root{--surface:#fcfcfb;--text-primary:#0b0b0b;--text-secondary:#52514e;--grid:#e4e3df;
+--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#4a3aa7;--s8:#e34948;}
+@media (prefers-color-scheme: dark){:root{--surface:#1a1a19;--text-primary:#ffffff;--text-secondary:#c3c2b7;--grid:#3a3a37;
+--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;}}
+.bg{fill:var(--surface)}.title{fill:var(--text-primary);font-size:15px;font-weight:600}.label{fill:var(--text-secondary);font-size:11px}
+.grid{stroke:var(--grid);stroke-width:1}.ref{stroke:var(--text-secondary);stroke-width:1;stroke-dasharray:3 3}
+.line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.trend{fill:none;stroke-width:1.5;stroke-dasharray:6 4;opacity:.75}
+circle.hit{fill:transparent;stroke:none}circle.hit:hover{fill:var(--surface);stroke:currentColor;stroke-width:2}
+.c1{stroke:var(--s1);color:var(--s1)}.f1{fill:var(--s1)}.c2{stroke:var(--s2);color:var(--s2)}.f2{fill:var(--s2)}.c3{stroke:var(--s3);color:var(--s3)}.f3{fill:var(--s3)}.c4{stroke:var(--s4);color:var(--s4)}.f4{fill:var(--s4)}.c5{stroke:var(--s5);color:var(--s5)}.f5{fill:var(--s5)}.c6{stroke:var(--s6);color:var(--s6)}.f6{fill:var(--s6)}.c7{stroke:var(--s7);color:var(--s7)}.f7{fill:var(--s7)}.c8{stroke:var(--s8);color:var(--s8)}.f8{fill:var(--s8)}
+</style>
+<rect class="bg" width="760" height="680"/>
+<text class="title" x="56" y="22">Core strategies</text>
+<rect class="f1" x="56" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="75" y="42">Random (harness control)</text>
+<rect class="f2" x="239.8" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="258.8" y="42">A</text>
+<rect class="f3" x="281" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="300" y="42">A without endgame</text>
+<rect class="f4" x="421.4" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="440.4" y="42">A, highest score</text>
+<rect class="f5" x="555.5999999999999" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="574.5999999999999" y="42">A + B</text>
+<rect class="f6" x="621.5999999999999" y="37" width="14" height="3" rx="1.5"/>
+<text class="label" x="640.5999999999999" y="42">A + B + C (T=7)</text>
+<line class="grid" x1="56" x2="720" y1="294.0" y2="294.0"/>
+<text class="label" x="48" y="298.0" text-anchor="end">0</text>
+<line class="grid" x1="56" x2="720" y1="241.7" y2="241.7"/>
+<text class="label" x="48" y="245.7" text-anchor="end">5</text>
+<line class="grid" x1="56" x2="720" y1="189.5" y2="189.5"/>
+<text class="label" x="48" y="193.5" text-anchor="end">10</text>
+<line class="grid" x1="56" x2="720" y1="137.2" y2="137.2"/>
+<text class="label" x="48" y="141.2" text-anchor="end">15</text>
+<line class="grid" x1="56" x2="720" y1="84.9" y2="84.9"/>
+<text class="label" x="48" y="88.9" text-anchor="end">20</text>
+<text class="label" x="56.0" y="310.0" text-anchor="middle">start</text>
+<text class="label" x="122.4" y="310.0" text-anchor="middle">W1</text>
+<text class="label" x="188.8" y="310.0" text-anchor="middle">W2</text>
+<text class="label" x="255.2" y="310.0" text-anchor="middle">W3</text>
+<text class="label" x="321.6" y="310.0" text-anchor="middle">W4</text>
+<text class="label" x="388.0" y="310.0" text-anchor="middle">W5</text>
+<text class="label" x="454.4" y="310.0" text-anchor="middle">W6</text>
+<text class="label" x="520.8" y="310.0" text-anchor="middle">W7</text>
+<text class="label" x="587.2" y="310.0" text-anchor="middle">W8</text>
+<text class="label" x="653.6" y="310.0" text-anchor="middle">W9</text>
+<text class="label" x="720.0" y="310.0" text-anchor="middle">W10</text>
+<text class="label" x="388.0" y="330.0" text-anchor="middle">event (each week: truth booth, then match-up)</text>
+<text class="label" transform="translate(14 179.0) rotate(-90)" text-anchor="middle">log2(remaining viable matchings)</text>
+<line class="ref" x1="686.8" x2="686.8" y1="64.0" y2="294.0"/>
+<text class="label" x="682.8" y="74.0" text-anchor="end">last truth booth →</text>
+<polyline class="line c1" points="56.0,66.2 89.2,70.4 122.4,89.5 155.6,93.9 188.8,114.6 222.0,120.3 255.2,141.2 288.4,147.1 321.6,167.2 354.8,172.6 388.0,192.6 421.2,198.1 454.4,219.5 487.6,224.8 520.8,243.5 554.0,247.9 587.2,264.9 620.4,268.9 653.6,280.7 686.8,282.4 720.0,288.0"/>
+<line class="trend c1" x1="56.0" y1="66.1" x2="689.9" y2="294.0"><title>Random (harness control): trend 1.14 bits per event</title></line>
+<circle class="hit c1" cx="56.0" cy="66.2" r="5"><title>Random (harness control), event 0: 21.79</title></circle>
+<circle class="hit c1" cx="89.2" cy="70.4" r="5"><title>Random (harness control), event 1: 21.39</title></circle>
+<circle class="hit c1" cx="122.4" cy="89.5" r="5"><title>Random (harness control), event 2: 19.56</title></circle>
+<circle class="hit c1" cx="155.6" cy="93.9" r="5"><title>Random (harness control), event 3: 19.14</title></circle>
+<circle class="hit c1" cx="188.8" cy="114.6" r="5"><title>Random (harness control), event 4: 17.16</title></circle>
+<circle class="hit c1" cx="222.0" cy="120.3" r="5"><title>Random (harness control), event 5: 16.61</title></circle>
+<circle class="hit c1" cx="255.2" cy="141.2" r="5"><title>Random (harness control), event 6: 14.62</title></circle>
+<circle class="hit c1" cx="288.4" cy="147.1" r="5"><title>Random (harness control), event 7: 14.05</title></circle>
+<circle class="hit c1" cx="321.6" cy="167.2" r="5"><title>Random (harness control), event 8: 12.12</title></circle>
+<circle class="hit c1" cx="354.8" cy="172.6" r="5"><title>Random (harness control), event 9: 11.61</title></circle>
+<circle class="hit c1" cx="388.0" cy="192.6" r="5"><title>Random (harness control), event 10: 9.70</title></circle>
+<circle class="hit c1" cx="421.2" cy="198.1" r="5"><title>Random (harness control), event 11: 9.18</title></circle>
+<circle class="hit c1" cx="454.4" cy="219.5" r="5"><title>Random (harness control), event 12: 7.13</title></circle>
+<circle class="hit c1" cx="487.6" cy="224.8" r="5"><title>Random (harness control), event 13: 6.62</title></circle>
+<circle class="hit c1" cx="520.8" cy="243.5" r="5"><title>Random (harness control), event 14: 4.83</title></circle>
+<circle class="hit c1" cx="554.0" cy="247.9" r="5"><title>Random (harness control), event 15: 4.41</title></circle>
+<circle class="hit c1" cx="587.2" cy="264.9" r="5"><title>Random (harness control), event 16: 2.78</title></circle>
+<circle class="hit c1" cx="620.4" cy="268.9" r="5"><title>Random (harness control), event 17: 2.40</title></circle>
+<circle class="hit c1" cx="653.6" cy="280.7" r="5"><title>Random (harness control), event 18: 1.27</title></circle>
+<circle class="hit c1" cx="686.8" cy="282.4" r="5"><title>Random (harness control), event 19: 1.11</title></circle>
+<circle class="hit c1" cx="720.0" cy="288.0" r="5"><title>Random (harness control), event 20: 0.57</title></circle>
+<polyline class="line c2" points="56.0,66.2 89.2,70.4 122.4,89.3 155.6,94.8 188.8,111.1 222.0,119.0 255.2,130.2 288.4,137.2 321.6,146.9 354.8,153.7 388.0,166.1 421.2,172.7 454.4,183.3 487.6,189.0 520.8,201.0 554.0,206.7 587.2,218.8 620.4,225.0 653.6,236.7 686.8,242.2 720.0,252.4"/>
+<line class="trend c2" x1="56.0" y1="70.1" x2="720.0" y2="254.9"><title>A: trend 0.88 bits per event</title></line>
+<circle class="hit c2" cx="56.0" cy="66.2" r="5"><title>A, event 0: 21.79</title></circle>
+<circle class="hit c2" cx="89.2" cy="70.4" r="5"><title>A, event 1: 21.39</title></circle>
+<circle class="hit c2" cx="122.4" cy="89.3" r="5"><title>A, event 2: 19.58</title></circle>
+<circle class="hit c2" cx="155.6" cy="94.8" r="5"><title>A, event 3: 19.05</title></circle>
+<circle class="hit c2" cx="188.8" cy="111.1" r="5"><title>A, event 4: 17.49</title></circle>
+<circle class="hit c2" cx="222.0" cy="119.0" r="5"><title>A, event 5: 16.74</title></circle>
+<circle class="hit c2" cx="255.2" cy="130.2" r="5"><title>A, event 6: 15.67</title></circle>
+<circle class="hit c2" cx="288.4" cy="137.2" r="5"><title>A, event 7: 15.00</title></circle>
+<circle class="hit c2" cx="321.6" cy="146.9" r="5"><title>A, event 8: 14.07</title></circle>
+<circle class="hit c2" cx="354.8" cy="153.7" r="5"><title>A, event 9: 13.42</title></circle>
+<circle class="hit c2" cx="388.0" cy="166.1" r="5"><title>A, event 10: 12.24</title></circle>
+<circle class="hit c2" cx="421.2" cy="172.7" r="5"><title>A, event 11: 11.60</title></circle>
+<circle class="hit c2" cx="454.4" cy="183.3" r="5"><title>A, event 12: 10.59</title></circle>
+<circle class="hit c2" cx="487.6" cy="189.0" r="5"><title>A, event 13: 10.05</title></circle>
+<circle class="hit c2" cx="520.8" cy="201.0" r="5"><title>A, event 14: 8.90</title></circle>
+<circle class="hit c2" cx="554.0" cy="206.7" r="5"><title>A, event 15: 8.35</title></circle>
+<circle class="hit c2" cx="587.2" cy="218.8" r="5"><title>A, event 16: 7.20</title></circle>
+<circle class="hit c2" cx="620.4" cy="225.0" r="5"><title>A, event 17: 6.60</title></circle>
+<circle class="hit c2" cx="653.6" cy="236.7" r="5"><title>A, event 18: 5.49</title></circle>
+<circle class="hit c2" cx="686.8" cy="242.2" r="5"><title>A, event 19: 4.96</title></circle>
+<circle class="hit c2" cx="720.0" cy="252.4" r="5"><title>A, event 20: 3.98</title></circle>
+<polyline class="line c3" points="56.0,66.2 89.2,70.4 122.4,89.3 155.6,94.8 188.8,111.1 222.0,119.0 255.2,130.2 288.4,137.2 321.6,146.9 354.8,153.7 388.0,166.1 421.2,172.7 454.4,183.5 487.6,189.0 520.8,201.3 554.0,207.0 587.2,219.3 620.4,225.5 653.6,237.5 686.8,242.5 720.0,252.9"/>
+<line class="trend c3" x1="56.0" y1="70.0" x2="720.0" y2="255.4"><title>A without endgame: trend 0.89 bits per event</title></line>
+<circle class="hit c3" cx="56.0" cy="66.2" r="5"><title>A without endgame, event 0: 21.79</title></circle>
+<circle class="hit c3" cx="89.2" cy="70.4" r="5"><title>A without endgame, event 1: 21.39</title></circle>
+<circle class="hit c3" cx="122.4" cy="89.3" r="5"><title>A without endgame, event 2: 19.58</title></circle>
+<circle class="hit c3" cx="155.6" cy="94.8" r="5"><title>A without endgame, event 3: 19.05</title></circle>
+<circle class="hit c3" cx="188.8" cy="111.1" r="5"><title>A without endgame, event 4: 17.49</title></circle>
+<circle class="hit c3" cx="222.0" cy="119.0" r="5"><title>A without endgame, event 5: 16.74</title></circle>
+<circle class="hit c3" cx="255.2" cy="130.2" r="5"><title>A without endgame, event 6: 15.67</title></circle>
+<circle class="hit c3" cx="288.4" cy="137.2" r="5"><title>A without endgame, event 7: 15.00</title></circle>
+<circle class="hit c3" cx="321.6" cy="146.9" r="5"><title>A without endgame, event 8: 14.07</title></circle>
+<circle class="hit c3" cx="354.8" cy="153.7" r="5"><title>A without endgame, event 9: 13.42</title></circle>
+<circle class="hit c3" cx="388.0" cy="166.1" r="5"><title>A without endgame, event 10: 12.24</title></circle>
+<circle class="hit c3" cx="421.2" cy="172.7" r="5"><title>A without endgame, event 11: 11.60</title></circle>
+<circle class="hit c3" cx="454.4" cy="183.5" r="5"><title>A without endgame, event 12: 10.57</title></circle>
+<circle class="hit c3" cx="487.6" cy="189.0" r="5"><title>A without endgame, event 13: 10.04</title></circle>
+<circle class="hit c3" cx="520.8" cy="201.3" r="5"><title>A without endgame, event 14: 8.86</title></circle>
+<circle class="hit c3" cx="554.0" cy="207.0" r="5"><title>A without endgame, event 15: 8.32</title></circle>
+<circle class="hit c3" cx="587.2" cy="219.3" r="5"><title>A without endgame, event 16: 7.15</title></circle>
+<circle class="hit c3" cx="620.4" cy="225.5" r="5"><title>A without endgame, event 17: 6.55</title></circle>
+<circle class="hit c3" cx="653.6" cy="237.5" r="5"><title>A without endgame, event 18: 5.41</title></circle>
+<circle class="hit c3" cx="686.8" cy="242.5" r="5"><title>A without endgame, event 19: 4.93</title></circle>
+<circle class="hit c3" cx="720.0" cy="252.9" r="5"><title>A without endgame, event 20: 3.93</title></circle>
+<polyline class="line c4" points="56.0,66.2 89.2,70.4 122.4,89.3 155.6,94.8 188.8,111.1 222.0,119.0 255.2,130.2 288.4,137.3 321.6,146.5 354.8,155.5 388.0,165.6 421.2,174.0 454.4,180.8 487.6,189.7 520.8,196.5 554.0,204.3 587.2,210.7 620.4,218.2 653.6,224.8 686.8,231.6 720.0,237.9"/>
+<line class="trend c4" x1="56.0" y1="73.4" x2="720.0" y2="246.1"><title>A, highest score: trend 0.83 bits per event</title></line>
+<circle class="hit c4" cx="56.0" cy="66.2" r="5"><title>A, highest score, event 0: 21.79</title></circle>
+<circle class="hit c4" cx="89.2" cy="70.4" r="5"><title>A, highest score, event 1: 21.39</title></circle>
+<circle class="hit c4" cx="122.4" cy="89.3" r="5"><title>A, highest score, event 2: 19.58</title></circle>
+<circle class="hit c4" cx="155.6" cy="94.8" r="5"><title>A, highest score, event 3: 19.05</title></circle>
+<circle class="hit c4" cx="188.8" cy="111.1" r="5"><title>A, highest score, event 4: 17.49</title></circle>
+<circle class="hit c4" cx="222.0" cy="119.0" r="5"><title>A, highest score, event 5: 16.74</title></circle>
+<circle class="hit c4" cx="255.2" cy="130.2" r="5"><title>A, highest score, event 6: 15.67</title></circle>
+<circle class="hit c4" cx="288.4" cy="137.3" r="5"><title>A, highest score, event 7: 14.99</title></circle>
+<circle class="hit c4" cx="321.6" cy="146.5" r="5"><title>A, highest score, event 8: 14.11</title></circle>
+<circle class="hit c4" cx="354.8" cy="155.5" r="5"><title>A, highest score, event 9: 13.25</title></circle>
+<circle class="hit c4" cx="388.0" cy="165.6" r="5"><title>A, highest score, event 10: 12.28</title></circle>
+<circle class="hit c4" cx="421.2" cy="174.0" r="5"><title>A, highest score, event 11: 11.48</title></circle>
+<circle class="hit c4" cx="454.4" cy="180.8" r="5"><title>A, highest score, event 12: 10.82</title></circle>
+<circle class="hit c4" cx="487.6" cy="189.7" r="5"><title>A, highest score, event 13: 9.97</title></circle>
+<circle class="hit c4" cx="520.8" cy="196.5" r="5"><title>A, highest score, event 14: 9.33</title></circle>
+<circle class="hit c4" cx="554.0" cy="204.3" r="5"><title>A, highest score, event 15: 8.58</title></circle>
+<circle class="hit c4" cx="587.2" cy="210.7" r="5"><title>A, highest score, event 16: 7.97</title></circle>
+<circle class="hit c4" cx="620.4" cy="218.2" r="5"><title>A, highest score, event 17: 7.25</title></circle>
+<circle class="hit c4" cx="653.6" cy="224.8" r="5"><title>A, highest score, event 18: 6.62</title></circle>
+<circle class="hit c4" cx="686.8" cy="231.6" r="5"><title>A, highest score, event 19: 5.97</title></circle>
+<circle class="hit c4" cx="720.0" cy="237.9" r="5"><title>A, highest score, event 20: 5.36</title></circle>
+<polyline class="line c5" points="56.0,66.2 89.2,70.4 122.4,89.3 155.6,94.8 188.8,109.0 222.0,117.6 255.2,130.9 288.4,138.3 321.6,150.8 354.8,157.8 388.0,167.8 421.2,175.0 454.4,183.7 487.6,190.5 520.8,200.5 554.0,207.2 587.2,215.8 620.4,222.4 653.6,231.3 686.8,237.6 720.0,246.6"/>
+<line class="trend c5" x1="56.0" y1="71.9" x2="720.0" y2="252.3"><title>A + B: trend 0.86 bits per event</title></line>
+<circle class="hit c5" cx="56.0" cy="66.2" r="5"><title>A + B, event 0: 21.79</title></circle>
+<circle class="hit c5" cx="89.2" cy="70.4" r="5"><title>A + B, event 1: 21.39</title></circle>
+<circle class="hit c5" cx="122.4" cy="89.3" r="5"><title>A + B, event 2: 19.58</title></circle>
+<circle class="hit c5" cx="155.6" cy="94.8" r="5"><title>A + B, event 3: 19.05</title></circle>
+<circle class="hit c5" cx="188.8" cy="109.0" r="5"><title>A + B, event 4: 17.69</title></circle>
+<circle class="hit c5" cx="222.0" cy="117.6" r="5"><title>A + B, event 5: 16.87</title></circle>
+<circle class="hit c5" cx="255.2" cy="130.9" r="5"><title>A + B, event 6: 15.60</title></circle>
+<circle class="hit c5" cx="288.4" cy="138.3" r="5"><title>A + B, event 7: 14.89</title></circle>
+<circle class="hit c5" cx="321.6" cy="150.8" r="5"><title>A + B, event 8: 13.70</title></circle>
+<circle class="hit c5" cx="354.8" cy="157.8" r="5"><title>A + B, event 9: 13.03</title></circle>
+<circle class="hit c5" cx="388.0" cy="167.8" r="5"><title>A + B, event 10: 12.07</title></circle>
+<circle class="hit c5" cx="421.2" cy="175.0" r="5"><title>A + B, event 11: 11.39</title></circle>
+<circle class="hit c5" cx="454.4" cy="183.7" r="5"><title>A + B, event 12: 10.55</title></circle>
+<circle class="hit c5" cx="487.6" cy="190.5" r="5"><title>A + B, event 13: 9.90</title></circle>
+<circle class="hit c5" cx="520.8" cy="200.5" r="5"><title>A + B, event 14: 8.94</title></circle>
+<circle class="hit c5" cx="554.0" cy="207.2" r="5"><title>A + B, event 15: 8.30</title></circle>
+<circle class="hit c5" cx="587.2" cy="215.8" r="5"><title>A + B, event 16: 7.48</title></circle>
+<circle class="hit c5" cx="620.4" cy="222.4" r="5"><title>A + B, event 17: 6.85</title></circle>
+<circle class="hit c5" cx="653.6" cy="231.3" r="5"><title>A + B, event 18: 6.00</title></circle>
+<circle class="hit c5" cx="686.8" cy="237.6" r="5"><title>A + B, event 19: 5.39</title></circle>
+<circle class="hit c5" cx="720.0" cy="246.6" r="5"><title>A + B, event 20: 4.54</title></circle>
+<polyline class="line c6" points="56.0,66.2 89.2,70.4 122.4,90.0 155.6,96.2 188.8,109.3 222.0,117.5 255.2,129.9 288.4,137.9 321.6,150.0 354.8,157.3 388.0,166.4 421.2,173.5 454.4,182.7 487.6,188.6 520.8,197.7 554.0,205.0 587.2,214.9 620.4,222.4 653.6,232.0 686.8,238.8 720.0,247.1"/>
+<line class="trend c6" x1="56.0" y1="71.7" x2="720.0" y2="251.5"><title>A + B + C (T=7): trend 0.86 bits per event</title></line>
+<circle class="hit c6" cx="56.0" cy="66.2" r="5"><title>A + B + C (T=7), event 0: 21.79</title></circle>
+<circle class="hit c6" cx="89.2" cy="70.4" r="5"><title>A + B + C (T=7), event 1: 21.39</title></circle>
+<circle class="hit c6" cx="122.4" cy="90.0" r="5"><title>A + B + C (T=7), event 2: 19.52</title></circle>
+<circle class="hit c6" cx="155.6" cy="96.2" r="5"><title>A + B + C (T=7), event 3: 18.92</title></circle>
+<circle class="hit c6" cx="188.8" cy="109.3" r="5"><title>A + B + C (T=7), event 4: 17.67</title></circle>
+<circle class="hit c6" cx="222.0" cy="117.5" r="5"><title>A + B + C (T=7), event 5: 16.88</title></circle>
+<circle class="hit c6" cx="255.2" cy="129.9" r="5"><title>A + B + C (T=7), event 6: 15.69</title></circle>
+<circle class="hit c6" cx="288.4" cy="137.9" r="5"><title>A + B + C (T=7), event 7: 14.93</title></circle>
+<circle class="hit c6" cx="321.6" cy="150.0" r="5"><title>A + B + C (T=7), event 8: 13.78</title></circle>
+<circle class="hit c6" cx="354.8" cy="157.3" r="5"><title>A + B + C (T=7), event 9: 13.07</title></circle>
+<circle class="hit c6" cx="388.0" cy="166.4" r="5"><title>A + B + C (T=7), event 10: 12.21</title></circle>
+<circle class="hit c6" cx="421.2" cy="173.5" r="5"><title>A + B + C (T=7), event 11: 11.53</title></circle>
+<circle class="hit c6" cx="454.4" cy="182.7" r="5"><title>A + B + C (T=7), event 12: 10.64</title></circle>
+<circle class="hit c6" cx="487.6" cy="188.6" r="5"><title>A + B + C (T=7), event 13: 10.09</title></circle>
+<circle class="hit c6" cx="520.8" cy="197.7" r="5"><title>A + B + C (T=7), event 14: 9.21</title></circle>
+<circle class="hit c6" cx="554.0" cy="205.0" r="5"><title>A + B + C (T=7), event 15: 8.51</title></circle>
+<circle class="hit c6" cx="587.2" cy="214.9" r="5"><title>A + B + C (T=7), event 16: 7.57</title></circle>
+<circle class="hit c6" cx="620.4" cy="222.4" r="5"><title>A + B + C (T=7), event 17: 6.85</title></circle>
+<circle class="hit c6" cx="653.6" cy="232.0" r="5"><title>A + B + C (T=7), event 18: 5.93</title></circle>
+<circle class="hit c6" cx="686.8" cy="238.8" r="5"><title>A + B + C (T=7), event 19: 5.28</title></circle>
+<circle class="hit c6" cx="720.0" cy="247.1" r="5"><title>A + B + C (T=7), event 20: 4.49</title></circle>
+<text class="title" x="56" y="362">Padding sweep (A + C)</text>
+<rect class="f1" x="56" y="377" width="14" height="3" rx="1.5"/>
+<text class="label" x="75" y="382">A + C (T=3)</text>
+<rect class="f2" x="159.2" y="377" width="14" height="3" rx="1.5"/>
+<text class="label" x="178.2" y="382">A + C (T=5)</text>
+<rect class="f3" x="262.4" y="377" width="14" height="3" rx="1.5"/>
+<text class="label" x="281.4" y="382">A + C (T=7)</text>
+<rect class="f4" x="365.59999999999997" y="377" width="14" height="3" rx="1.5"/>
+<text class="label" x="384.59999999999997" y="382">A + C (T=10)</text>
+<line class="grid" x1="56" x2="720" y1="634.0" y2="634.0"/>
+<text class="label" x="48" y="638.0" text-anchor="end">0</text>
+<line class="grid" x1="56" x2="720" y1="581.7" y2="581.7"/>
+<text class="label" x="48" y="585.7" text-anchor="end">5</text>
+<line class="grid" x1="56" x2="720" y1="529.5" y2="529.5"/>
+<text class="label" x="48" y="533.5" text-anchor="end">10</text>
+<line class="grid" x1="56" x2="720" y1="477.2" y2="477.2"/>
+<text class="label" x="48" y="481.2" text-anchor="end">15</text>
+<line class="grid" x1="56" x2="720" y1="424.9" y2="424.9"/>
+<text class="label" x="48" y="428.9" text-anchor="end">20</text>
+<text class="label" x="56.0" y="650.0" text-anchor="middle">start</text>
+<text class="label" x="122.4" y="650.0" text-anchor="middle">W1</text>
+<text class="label" x="188.8" y="650.0" text-anchor="middle">W2</text>
+<text class="label" x="255.2" y="650.0" text-anchor="middle">W3</text>
+<text class="label" x="321.6" y="650.0" text-anchor="middle">W4</text>
+<text class="label" x="388.0" y="650.0" text-anchor="middle">W5</text>
+<text class="label" x="454.4" y="650.0" text-anchor="middle">W6</text>
+<text class="label" x="520.8" y="650.0" text-anchor="middle">W7</text>
+<text class="label" x="587.2" y="650.0" text-anchor="middle">W8</text>
+<text class="label" x="653.6" y="650.0" text-anchor="middle">W9</text>
+<text class="label" x="720.0" y="650.0" text-anchor="middle">W10</text>
+<text class="label" x="388.0" y="670.0" text-anchor="middle">event (each week: truth booth, then match-up)</text>
+<text class="label" transform="translate(14 519.0) rotate(-90)" text-anchor="middle">log2(remaining viable matchings)</text>
+<line class="ref" x1="686.8" x2="686.8" y1="404.0" y2="634.0"/>
+<text class="label" x="682.8" y="414.0" text-anchor="end">last truth booth →</text>
+<polyline class="line c1" points="56.0,406.2 89.2,410.4 122.4,430.2 155.6,435.5 188.8,447.3 222.0,454.5 255.2,463.8 288.4,470.9 321.6,479.4 354.8,485.3 388.0,494.4 421.2,499.9 454.4,510.3 487.6,517.0 520.8,526.7 554.0,533.9 587.2,545.3 620.4,551.7 653.6,562.1 686.8,568.1 720.0,578.5"/>
+<line class="trend c1" x1="56.0" y1="410.0" x2="720.0" y2="577.8"><title>A + C (T=3): trend 0.80 bits per event</title></line>
+<circle class="hit c1" cx="56.0" cy="406.2" r="5"><title>A + C (T=3), event 0: 21.79</title></circle>
+<circle class="hit c1" cx="89.2" cy="410.4" r="5"><title>A + C (T=3), event 1: 21.39</title></circle>
+<circle class="hit c1" cx="122.4" cy="430.2" r="5"><title>A + C (T=3), event 2: 19.49</title></circle>
+<circle class="hit c1" cx="155.6" cy="435.5" r="5"><title>A + C (T=3), event 3: 18.99</title></circle>
+<circle class="hit c1" cx="188.8" cy="447.3" r="5"><title>A + C (T=3), event 4: 17.86</title></circle>
+<circle class="hit c1" cx="222.0" cy="454.5" r="5"><title>A + C (T=3), event 5: 17.17</title></circle>
+<circle class="hit c1" cx="255.2" cy="463.8" r="5"><title>A + C (T=3), event 6: 16.28</title></circle>
+<circle class="hit c1" cx="288.4" cy="470.9" r="5"><title>A + C (T=3), event 7: 15.60</title></circle>
+<circle class="hit c1" cx="321.6" cy="479.4" r="5"><title>A + C (T=3), event 8: 14.79</title></circle>
+<circle class="hit c1" cx="354.8" cy="485.3" r="5"><title>A + C (T=3), event 9: 14.22</title></circle>
+<circle class="hit c1" cx="388.0" cy="494.4" r="5"><title>A + C (T=3), event 10: 13.36</title></circle>
+<circle class="hit c1" cx="421.2" cy="499.9" r="5"><title>A + C (T=3), event 11: 12.83</title></circle>
+<circle class="hit c1" cx="454.4" cy="510.3" r="5"><title>A + C (T=3), event 12: 11.84</title></circle>
+<circle class="hit c1" cx="487.6" cy="517.0" r="5"><title>A + C (T=3), event 13: 11.19</title></circle>
+<circle class="hit c1" cx="520.8" cy="526.7" r="5"><title>A + C (T=3), event 14: 10.26</title></circle>
+<circle class="hit c1" cx="554.0" cy="533.9" r="5"><title>A + C (T=3), event 15: 9.58</title></circle>
+<circle class="hit c1" cx="587.2" cy="545.3" r="5"><title>A + C (T=3), event 16: 8.49</title></circle>
+<circle class="hit c1" cx="620.4" cy="551.7" r="5"><title>A + C (T=3), event 17: 7.87</title></circle>
+<circle class="hit c1" cx="653.6" cy="562.1" r="5"><title>A + C (T=3), event 18: 6.88</title></circle>
+<circle class="hit c1" cx="686.8" cy="568.1" r="5"><title>A + C (T=3), event 19: 6.31</title></circle>
+<circle class="hit c1" cx="720.0" cy="578.5" r="5"><title>A + C (T=3), event 20: 5.31</title></circle>
+<polyline class="line c2" points="56.0,406.2 89.2,410.4 122.4,430.2 155.6,435.8 188.8,448.5 222.0,455.2 255.2,466.2 288.4,473.9 321.6,484.3 354.8,492.1 388.0,505.0 421.2,512.0 454.4,523.3 487.6,529.3 520.8,542.7 554.0,549.1 587.2,562.9 620.4,567.8 653.6,581.2 686.8,585.7 720.0,596.3"/>
+<line class="trend c2" x1="56.0" y1="407.5" x2="720.0" y2="598.0"><title>A + C (T=5): trend 0.91 bits per event</title></line>
+<circle class="hit c2" cx="56.0" cy="406.2" r="5"><title>A + C (T=5), event 0: 21.79</title></circle>
+<circle class="hit c2" cx="89.2" cy="410.4" r="5"><title>A + C (T=5), event 1: 21.39</title></circle>
+<circle class="hit c2" cx="122.4" cy="430.2" r="5"><title>A + C (T=5), event 2: 19.49</title></circle>
+<circle class="hit c2" cx="155.6" cy="435.8" r="5"><title>A + C (T=5), event 3: 18.95</title></circle>
+<circle class="hit c2" cx="188.8" cy="448.5" r="5"><title>A + C (T=5), event 4: 17.74</title></circle>
+<circle class="hit c2" cx="222.0" cy="455.2" r="5"><title>A + C (T=5), event 5: 17.11</title></circle>
+<circle class="hit c2" cx="255.2" cy="466.2" r="5"><title>A + C (T=5), event 6: 16.05</title></circle>
+<circle class="hit c2" cx="288.4" cy="473.9" r="5"><title>A + C (T=5), event 7: 15.31</title></circle>
+<circle class="hit c2" cx="321.6" cy="484.3" r="5"><title>A + C (T=5), event 8: 14.32</title></circle>
+<circle class="hit c2" cx="354.8" cy="492.1" r="5"><title>A + C (T=5), event 9: 13.58</title></circle>
+<circle class="hit c2" cx="388.0" cy="505.0" r="5"><title>A + C (T=5), event 10: 12.34</title></circle>
+<circle class="hit c2" cx="421.2" cy="512.0" r="5"><title>A + C (T=5), event 11: 11.67</title></circle>
+<circle class="hit c2" cx="454.4" cy="523.3" r="5"><title>A + C (T=5), event 12: 10.59</title></circle>
+<circle class="hit c2" cx="487.6" cy="529.3" r="5"><title>A + C (T=5), event 13: 10.01</title></circle>
+<circle class="hit c2" cx="520.8" cy="542.7" r="5"><title>A + C (T=5), event 14: 8.73</title></circle>
+<circle class="hit c2" cx="554.0" cy="549.1" r="5"><title>A + C (T=5), event 15: 8.12</title></circle>
+<circle class="hit c2" cx="587.2" cy="562.9" r="5"><title>A + C (T=5), event 16: 6.81</title></circle>
+<circle class="hit c2" cx="620.4" cy="567.8" r="5"><title>A + C (T=5), event 17: 6.33</title></circle>
+<circle class="hit c2" cx="653.6" cy="581.2" r="5"><title>A + C (T=5), event 18: 5.05</title></circle>
+<circle class="hit c2" cx="686.8" cy="585.7" r="5"><title>A + C (T=5), event 19: 4.62</title></circle>
+<circle class="hit c2" cx="720.0" cy="596.3" r="5"><title>A + C (T=5), event 20: 3.61</title></circle>
+<polyline class="line c3" points="56.0,406.2 89.2,410.4 122.4,430.0 155.6,436.2 188.8,450.1 222.0,457.5 255.2,468.7 288.4,475.7 321.6,486.3 354.8,492.7 388.0,505.8 421.2,512.5 454.4,525.9 487.6,531.6 520.8,545.7 554.0,551.2 587.2,564.6 620.4,570.3 653.6,582.3 686.8,588.0 720.0,597.9"/>
+<line class="trend c3" x1="56.0" y1="408.1" x2="720.0" y2="600.4"><title>A + C (T=7): trend 0.92 bits per event</title></line>
+<circle class="hit c3" cx="56.0" cy="406.2" r="5"><title>A + C (T=7), event 0: 21.79</title></circle>
+<circle class="hit c3" cx="89.2" cy="410.4" r="5"><title>A + C (T=7), event 1: 21.39</title></circle>
+<circle class="hit c3" cx="122.4" cy="430.0" r="5"><title>A + C (T=7), event 2: 19.52</title></circle>
+<circle class="hit c3" cx="155.6" cy="436.2" r="5"><title>A + C (T=7), event 3: 18.92</title></circle>
+<circle class="hit c3" cx="188.8" cy="450.1" r="5"><title>A + C (T=7), event 4: 17.59</title></circle>
+<circle class="hit c3" cx="222.0" cy="457.5" r="5"><title>A + C (T=7), event 5: 16.89</title></circle>
+<circle class="hit c3" cx="255.2" cy="468.7" r="5"><title>A + C (T=7), event 6: 15.81</title></circle>
+<circle class="hit c3" cx="288.4" cy="475.7" r="5"><title>A + C (T=7), event 7: 15.14</title></circle>
+<circle class="hit c3" cx="321.6" cy="486.3" r="5"><title>A + C (T=7), event 8: 14.12</title></circle>
+<circle class="hit c3" cx="354.8" cy="492.7" r="5"><title>A + C (T=7), event 9: 13.52</title></circle>
+<circle class="hit c3" cx="388.0" cy="505.8" r="5"><title>A + C (T=7), event 10: 12.27</title></circle>
+<circle class="hit c3" cx="421.2" cy="512.5" r="5"><title>A + C (T=7), event 11: 11.62</title></circle>
+<circle class="hit c3" cx="454.4" cy="525.9" r="5"><title>A + C (T=7), event 12: 10.34</title></circle>
+<circle class="hit c3" cx="487.6" cy="531.6" r="5"><title>A + C (T=7), event 13: 9.80</title></circle>
+<circle class="hit c3" cx="520.8" cy="545.7" r="5"><title>A + C (T=7), event 14: 8.45</title></circle>
+<circle class="hit c3" cx="554.0" cy="551.2" r="5"><title>A + C (T=7), event 15: 7.92</title></circle>
+<circle class="hit c3" cx="587.2" cy="564.6" r="5"><title>A + C (T=7), event 16: 6.63</title></circle>
+<circle class="hit c3" cx="620.4" cy="570.3" r="5"><title>A + C (T=7), event 17: 6.09</title></circle>
+<circle class="hit c3" cx="653.6" cy="582.3" r="5"><title>A + C (T=7), event 18: 4.95</title></circle>
+<circle class="hit c3" cx="686.8" cy="588.0" r="5"><title>A + C (T=7), event 19: 4.40</title></circle>
+<circle class="hit c3" cx="720.0" cy="597.9" r="5"><title>A + C (T=7), event 20: 3.46</title></circle>
+<polyline class="line c4" points="56.0,406.2 89.2,410.4 122.4,429.3 155.6,434.8 188.8,451.1 222.0,459.0 255.2,470.2 288.4,477.2 321.6,486.9 354.8,493.7 388.0,506.1 421.2,512.7 454.4,523.3 487.6,529.0 520.8,541.0 554.0,546.7 587.2,558.8 620.4,565.0 653.6,576.7 686.8,582.2 720.0,592.4"/>
+<line class="trend c4" x1="56.0" y1="410.1" x2="720.0" y2="594.9"><title>A + C (T=10): trend 0.88 bits per event</title></line>
+<circle class="hit c4" cx="56.0" cy="406.2" r="5"><title>A + C (T=10), event 0: 21.79</title></circle>
+<circle class="hit c4" cx="89.2" cy="410.4" r="5"><title>A + C (T=10), event 1: 21.39</title></circle>
+<circle class="hit c4" cx="122.4" cy="429.3" r="5"><title>A + C (T=10), event 2: 19.58</title></circle>
+<circle class="hit c4" cx="155.6" cy="434.8" r="5"><title>A + C (T=10), event 3: 19.05</title></circle>
+<circle class="hit c4" cx="188.8" cy="451.1" r="5"><title>A + C (T=10), event 4: 17.49</title></circle>
+<circle class="hit c4" cx="222.0" cy="459.0" r="5"><title>A + C (T=10), event 5: 16.74</title></circle>
+<circle class="hit c4" cx="255.2" cy="470.2" r="5"><title>A + C (T=10), event 6: 15.67</title></circle>
+<circle class="hit c4" cx="288.4" cy="477.2" r="5"><title>A + C (T=10), event 7: 15.00</title></circle>
+<circle class="hit c4" cx="321.6" cy="486.9" r="5"><title>A + C (T=10), event 8: 14.07</title></circle>
+<circle class="hit c4" cx="354.8" cy="493.7" r="5"><title>A + C (T=10), event 9: 13.42</title></circle>
+<circle class="hit c4" cx="388.0" cy="506.1" r="5"><title>A + C (T=10), event 10: 12.24</title></circle>
+<circle class="hit c4" cx="421.2" cy="512.7" r="5"><title>A + C (T=10), event 11: 11.60</title></circle>
+<circle class="hit c4" cx="454.4" cy="523.3" r="5"><title>A + C (T=10), event 12: 10.59</title></circle>
+<circle class="hit c4" cx="487.6" cy="529.0" r="5"><title>A + C (T=10), event 13: 10.05</title></circle>
+<circle class="hit c4" cx="520.8" cy="541.0" r="5"><title>A + C (T=10), event 14: 8.90</title></circle>
+<circle class="hit c4" cx="554.0" cy="546.7" r="5"><title>A + C (T=10), event 15: 8.35</title></circle>
+<circle class="hit c4" cx="587.2" cy="558.8" r="5"><title>A + C (T=10), event 16: 7.20</title></circle>
+<circle class="hit c4" cx="620.4" cy="565.0" r="5"><title>A + C (T=10), event 17: 6.60</title></circle>
+<circle class="hit c4" cx="653.6" cy="576.7" r="5"><title>A + C (T=10), event 18: 5.49</title></circle>
+<circle class="hit c4" cx="686.8" cy="582.2" r="5"><title>A + C (T=10), event 19: 4.96</title></circle>
+<circle class="hit c4" cx="720.0" cy="592.4" r="5"><title>A + C (T=10), event 20: 3.98</title></circle>
+</svg>

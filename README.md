@@ -59,6 +59,14 @@ The application runs 1000 iterations of match simulations, where each iteration:
 3. Computes information gained using logarithmic probability calculations
 4. Tracks running averages and final statistics
 
+## Human-computable strategies
+
+`dotnet run --project AreYouTheOne.Console -c Release -- human [--runs 200] [--seed 1000] [--out results]` simulates
+strategies a contestant could run with pen and paper: a points grid (naive Bayes), controlled swaps, and padding with
+known zeros. The exact viable-matchings set is used only to measure them. See
+[docs/human-strategies.md](docs/human-strategies.md) for the write-up and `results/` for the table, CSV and chart.
+Run the tests with `dotnet test`.
+
 ## Configuration
 
 You can adjust the logging level in `Program.cs` by modifying the `SetMinimumLevel` parameter:
